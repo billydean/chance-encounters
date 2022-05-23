@@ -164,6 +164,9 @@ Teeth:
     crooked
     overbite
     underbite
+    yellowed
+    rotten
+    missing
     no-comment
 Facial Hair:
     none

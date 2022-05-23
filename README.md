@@ -6,5 +6,3 @@ what it does
 why it is the way it is
 challenges
 invitation/cta
-
-
