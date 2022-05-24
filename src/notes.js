@@ -1,4 +1,13 @@
 /**
+ * MVP:
+ * 1. Looks decent at first glance
+ * 2. Face element SVGs in place
+ * 3. Face changes color w/ skin 
+ * 4. All MINIMUM elements generate
+ * 5. Render as ONE template
+ * 6. You're in... [SETTING COMPONENT]
+ * 7. You see... [DESCRIPTION COMPONENT]
+ * 8. They seem... but you suspect... [COMPORTMENT COMPONENT]
 Age:
     6-9     140
     10-13   125
