@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "outDir": "./built",
+        "allowJs": true,
+        "target": "ES6",
+        "module": "CommonJS",
+        "moduleResolution": "node"
+    },
+    "include":["./src/**/*"]
+}
