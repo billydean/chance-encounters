@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Setting from './components/Setting';
 import Description from './components/Description';
 import Comportment from './components/Comportment';

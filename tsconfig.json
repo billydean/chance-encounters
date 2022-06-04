@@ -1,11 +1,24 @@
 {
     "compilerOptions": {
+        "types": [
+            "react",
+            "react-dom"
+        ],
+        "lib": [
+            "dom",
+            "es6"
+        ],
         "jsx": "react",
-        "outDir": "./built",
+        "strict": true,
+        "sourceMap": true,
+        "outDir": "./build",
         "allowJs": true,
-        "target": "ES6",
-        "module": "CommonJS",
-        "moduleResolution": "node"
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true
     },
-    "include":["./src/**/*"]
+    "exclude": [
+        "node_modules"
+    ]
 }

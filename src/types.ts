@@ -1,3 +1,3 @@
 export interface Chances {
-	[index: String]: number;
+	[index: string]: number;
 }
