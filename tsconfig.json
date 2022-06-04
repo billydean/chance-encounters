@@ -16,7 +16,6 @@
         "target": "es6",
         "module": "esnext",
         "moduleResolution": "node",
-        "noEmit": true
     },
     "exclude": [
         "node_modules"

@@ -19,10 +19,10 @@
  * @param  {...string} variables selected options to weight
  */
 
-export function weigh (inputObject, weight, ...variables) {
-    for (let variable of variables) {
-        if (variable in inputObject) {
-            inputObject[variable] += weight;
-        }
-    }
-}
+// export function weigh (inputObject, weight, ...variables) {
+//     for (let variable of variables) {
+//         if (variable in inputObject) {
+//             inputObject[variable] += weight;
+//         }
+//     }
+// }
