@@ -17,3 +17,4 @@
 //     let rando: number = Math.ceil(Math.random * arrayedOptions.length);
 //     return arrayedOptions[rando];
 // }
+export {};
