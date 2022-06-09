@@ -1,11 +1,18 @@
+$text-color: #5f634f;
+$background: #cfebdf;
+$main-box: #9bc4cb;
+$spotlight: #dbefbc;
+$profile-box: #e2fadb;
+
 body {
-    background-color: #cfebdf;
-    color: #5f634f;
-}
 
-button {
+    background-color: $background;
+    color: $text-color;
+}   
+    
+/* button {
 
-}
+} */
 
 /* h1 {
     color: #5f634f;
@@ -19,7 +26,7 @@ h3 {
 
 } */
 
-header {
+/* header {
 
 }
 
@@ -34,21 +41,21 @@ nav {
 nav a {
 
 
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
 
-}
+} */
 
 .container {
-    background-color: #9bc4cb;
+    background-color: $main-box;
 }
 
 .highlight {
-    background-color: #dbefbc;
+    background-color: $spotlight;
 }
 
-.highlight:hover {
+/* .highlight:hover {
 
 }
 
@@ -58,10 +65,10 @@ nav a:hover {
 
 #note {
 
-}
+} */
 
 .profile-container {
-    background-color: #e2fadb;
+    background-color: $profile-box;
 }
 
 .profile-svg {

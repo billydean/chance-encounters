@@ -1,0 +1,382 @@
+%basic {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+%block {
+    display:block;
+}
+
+* {
+    box-sizing: inherit;
+    &:before{
+        box-sizing: inherit;
+    }
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+html {
+    @extend %basic;
+    box-sizing: border-box;
+}
+
+body {
+    @extend %basic;
+    line-height: 1;
+}
+
+div {
+    @extend %basic;
+}
+
+span {
+    @extend %basic;
+}
+
+applet {
+    @extend %basic;
+}
+
+object {
+    @extend %basic;
+}
+
+iframe {
+    @extend %basic;
+}
+
+h1 {
+    @extend %basic;
+}
+
+h2 {
+    @extend %basic;
+}
+
+h3 {
+    @extend %basic;
+}
+
+h4 {
+    @extend %basic;
+}
+
+h5 {
+    @extend %basic;
+}
+
+h6 {
+    @extend %basic;
+}
+
+p {
+    @extend %basic;
+}
+
+blockquote {
+    @extend %basic;
+    quotes: none;
+    &:before{
+        content:'';
+        content: none;
+    }
+    &:after {
+        content:'';
+        content: none;
+    }
+}
+
+pre {
+    @extend %basic;
+}
+
+a {
+    @extend %basic;
+}
+
+abbr {
+    @extend %basic;
+}
+
+acronym {
+    @extend %basic;
+}
+
+address {
+    @extend %basic;
+}
+
+big {
+    @extend %basic;
+}
+
+cite {
+    @extend %basic;
+}
+
+code {
+    @extend %basic;
+}
+
+del {
+    @extend %basic;
+}
+
+dfn {
+    @extend %basic;
+}
+
+em {
+    @extend %basic;
+}
+
+img {
+    @extend %basic;
+}
+
+ins {
+    @extend %basic;
+}
+
+kbd {
+    @extend %basic;
+}
+
+q {
+    @extend %basic;
+    quotes: none;
+    &:before{
+        content:'';
+        content: none;
+    }
+    &:after {
+        content:'';
+        content: none;
+    }
+}
+
+s {
+    @extend %basic;
+}
+
+samp {
+    @extend %basic;
+}
+
+small {
+    @extend %basic;
+}
+
+strike  {
+    @extend %basic;
+}
+
+strong {
+    @extend %basic;
+}
+
+sub {
+    @extend %basic;
+}
+
+sup {
+    @extend %basic;
+}
+
+tt  {
+    @extend %basic;
+}
+
+var  {
+    @extend %basic;
+}
+
+b {
+    @extend %basic;
+}
+
+u {
+    @extend %basic;
+}
+
+i {
+    @extend %basic;
+}
+
+center  {
+    @extend %basic;
+}
+
+dl {
+    @extend %basic;
+}
+
+dt {
+    @extend %basic;
+}
+
+dd {
+    @extend %basic;
+}
+
+ol {
+    @extend %basic;
+    list-style: none;
+}
+
+ul {
+    @extend %basic;
+    list-style: none;
+}
+
+li {
+    @extend %basic;
+}
+
+fieldset {
+    @extend %basic;
+}
+
+form {
+    @extend %basic;
+}
+
+label {
+    @extend %basic;
+}
+
+legend {
+    @extend %basic;
+}
+
+table {
+    @extend %basic;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption {
+    @extend %basic;
+}
+
+tbody {
+    @extend %basic;
+}
+
+tfoot {
+    @extend %basic;
+}
+
+thead {
+    @extend %basic;
+}
+
+tr {
+    @extend %basic;
+}
+
+th {
+    @extend %basic;
+}
+
+td {
+    @extend %basic;
+}
+
+article {
+    @extend %basic;
+    @extend %block;
+}
+
+aside {
+    @extend %basic;
+    @extend %block;
+}
+
+canvas {
+    @extend %basic;
+}
+
+details {
+    @extend %basic;
+    @extend %block;
+}
+
+embed {
+    @extend %basic;
+}
+
+figure {
+    @extend %basic;
+    @extend %block;
+}
+
+figcaption {
+    @extend %basic;
+    @extend %block;
+}
+
+footer {
+    @extend %basic;
+    @extend %block;
+}
+
+header {
+    @extend %basic;
+    @extend %block;
+}
+
+hgroup {
+    @extend %basic;
+    @extend %block;
+}
+
+menu {
+    @extend %basic;
+    @extend %block;
+}
+
+nav {
+    @extend %basic;
+    @extend %block;
+}
+
+output {
+    @extend %basic;
+}
+
+ruby {
+    @extend %basic;
+}
+
+section {
+    @extend %basic;
+    @extend %block;
+}
+
+summary {
+    @extend %basic;
+}
+
+time {
+    @extend %basic;
+}
+
+mark {
+    @extend %basic;
+}
+
+audio {
+    @extend %basic;
+}
+
+video {
+    @extend %basic;
+}
+
