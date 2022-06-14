@@ -2,7 +2,8 @@ import * as React from 'react';
 
 function Comportment () {
     return (
-      <div>
+      <div className='comportment-container'>
+        <p className='comportment'>The character is acting funny</p>
       </div>
     );
   }

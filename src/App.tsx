@@ -6,11 +6,13 @@ import Comportment from './components/Comportment';
 function App() {
   return (
 <div>
-      <h1>Who Is It?</h1>
+<h1>Who Is It?</h1>
+  <div className='container'>
         <Setting />
         <Description />
         <Comportment />
-      </div>
+  </div>
+</div>
   );
 }
 

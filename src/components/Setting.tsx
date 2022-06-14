@@ -2,8 +2,8 @@ import * as React from 'react';
 
 function Setting () {
     return (
-      <div>
-
+      <div className='setting-container'>
+        <p className='setting'>This is the setting</p>
       </div>
     );
   }
