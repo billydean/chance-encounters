@@ -3,28 +3,48 @@ $background: #cfebdf;
 $main-box: #9bc4cb;
 $spotlight: #dbefbc;
 $profile-box: #e2fadb;
+$small: 1.4rem;
+$default: 1.6rem;
+$highlight-text: 1.7rem;
+$h1: 4rem;
+$h2: 2.2rem;
+$h3: 1.8rem;
 
+:root {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
 body {
-
     background-color: $background;
     color: $text-color;
+    font-size: $default;
 }   
-    
-/* button {
 
-} */
+html {
+    border-width: 1px;
+}
 
-/* h1 {
-    color: #5f634f;
+ button {
+
+} 
+
+h1 {
+    font-size: $h1;
+    font-weight: 600;    
 }
 
 h2 {
-
+    font-size: $h2;
+    font-weight: 600; 
 }
 
 h3 {
-
-} */
+    font-size: $h3;
+    text-align: center;
+    font-weight: 600; 
+}
 
 /* header {
 
@@ -41,7 +61,7 @@ nav {
 nav a {
 
 
-} */
+}
 
 /* nav a:hover {
 
@@ -55,7 +75,20 @@ nav a {
 }
 
 .highlight {
-    background-color: $spotlight;
+    // display: inline-block;
+    // background-color: $spotlight;
+    padding: .1rem .3rem;
+    border-radius: 8px;
+    font-weight: 400;
+    font-style: italic;
+    transition: all 1s ease-in-out;
+    &:hover {
+        background-color: $spotlight;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
 }
 
 /* .highlight:hover {
@@ -71,37 +104,53 @@ nav a {
 } */
 
 .setting-container {
-    border: solid;
+    border: 1px solid;
 }
 .setting {
-    border: solid;
+    border: 1px solid;
 }
 .comportment-container {
-    border: solid;
+    border: 1px solid;
+    padding: 1vw 3vw;
 }
 .comportment {
-    border: solid;
+    border: 1px solid;
 }
 .description {
-    width: 55%;
-    border: solid;
+    width: 100%;
+    min-width: max-content;
+    border: 1px solid;
 }
 .description-container {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    border: solid;
+    justify-content:space-between;
+    border: 1px solid;
+    padding: 1vw 3vw;
+}
+.dummy-gap {
+    min-width: 5vw;
 }
 .profile-container {
     background-color: $profile-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 140px;
-    border: solid;
+    padding: 4px;
+    width: 25%;
+    min-width: 140px;
+    max-width: 220px;
+    border: 1px solid;
+    & div {
+        width: 80%;
+        align-self: center;
+        margin-bottom: 1rem;
+    }
 }
 
 .profile-svg {
     width: 100%;
+    align-self: center;
 }
 
 /*

@@ -32,6 +32,7 @@ function Profile () {
           />
           </g>
         </svg>
+        <div><h3>a sight for sore eyes</h3></div>
       </div>
     );
   }
