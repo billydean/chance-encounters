@@ -35,9 +35,9 @@ html {
     border-width: 1px;
 }
 
- button {
+//  button {
 
-} 
+// } 
 
 h1 {
     font-size: $h1;
@@ -132,8 +132,10 @@ nav a {
 }
 .description {
     width: 100%;
-    min-width: max-content;
-    border: 1px solid;
+    // min-width: max-content;
+    // border: 1px solid;
+    line-height: 200%;
+    align-self: center;
 }
 .description-container {
     display:flex;

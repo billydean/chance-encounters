@@ -8,9 +8,9 @@ import { StateObject } from './types';
 // may change state management strategy
 const initialPronouns: StateObject = {
   // relevant for any text
-  pronounNom: 'he',
-  pronounGen: 'his',
-  pronounObj: 'him',
+  nom: 'he',
+  gen: 'his',
+  obj: 'him',
 }
 const initialCharacter: StateObject = {
   // relevant for description only (unless I can figure out how to depict it later on)
@@ -28,7 +28,8 @@ const initialCharacter: StateObject = {
   browsQual: 'unruly',
   skinColor: 'olive',
   faceFeat: 'freckles',
-  cheeks: 'hollow',
+  forehead: 'prominent brow',
+  cheeks: 'hollow cheeks',
   jaw: 'square',
   chin: 'cleft',
   nose: 'roman',
