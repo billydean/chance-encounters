@@ -1,8 +1,17 @@
-$text-color: #5f634f;
-$background: #cfebdf;
-$main-box: #9bc4cb;
-$spotlight: #dbefbc;
-$profile-box: #e2fadb;
+// color variables
+// $text-color: #5f634f;
+// $background: #cfebdf;
+// $main-box: #9bc4cb;
+// $spotlight: #dbefbc;
+// $profile-box: #e2fadb;
+
+$text-color: #2F362F;
+$background: #068D9F;
+$main-box: #7CA47A;
+$spotlight: #E5DC84;
+$profile-box: #5C8050;
+
+//text variables
 $small: 1.4rem;
 $default: 1.6rem;
 $highlight-text: 1.7rem;
@@ -32,12 +41,15 @@ html {
 
 h1 {
     font-size: $h1;
-    font-weight: 600;    
+    font-weight: 600;
+    margin-left: 2vw;    
 }
 
 h2 {
     font-size: $h2;
-    font-weight: 600; 
+    font-weight: 600;
+    // margin-left: 1vw;
+    margin: 0.5rem 1vw 0.25rem 1vw; 
 }
 
 h3 {
@@ -71,7 +83,8 @@ nav a {
     background-color: $main-box;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: 1rem 3.5%;
+    // width: 93%;
 }
 
 .highlight {
@@ -108,10 +121,11 @@ nav a {
 }
 .setting {
     border: 1px solid;
+    margin: 0.25rem 2vw;
 }
 .comportment-container {
     border: 1px solid;
-    padding: 1vw 3vw;
+    padding: 0.5rem 2vw 1.5rem 2vw;
 }
 .comportment {
     border: 1px solid;
@@ -126,10 +140,10 @@ nav a {
     flex-direction: row;
     justify-content:space-between;
     border: 1px solid;
-    padding: 1vw 3vw;
+    padding: 1vw 3vw 1vw 2vw;
 }
 .dummy-gap {
-    min-width: 5vw;
+    min-width: 3vw;
 }
 .profile-container {
     background-color: $profile-box;
